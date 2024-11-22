@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">FGFBrands</string>
+
+
+    <string name="likes_count">%1$s Likes</string>
+    <string name="like">Like</string>
+    <string name="unlike">Unlike</string>
+    <string name="post_hint">Post text</string>
+    <string name="comments">Comments</string>
+    <string name="likes">Likes</string>
+    <string name="add_comment">Add Comment</string>
+    <string name="add_a_comment">Add a comment</string>
+</resources>

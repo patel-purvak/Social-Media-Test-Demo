@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="@dimen/padding_16">
+
+    <!-- RecyclerView for displaying comments -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewComments"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <!-- Input field and button for adding comments -->
+    <EditText
+        android:id="@+id/etNewComment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/add_a_comment"
+        android:layout_marginTop="@dimen/margin_4"
+        android:layout_marginBottom="@dimen/margin_4"
+        android:importantForAutofill="no"
+        tools:ignore="TextFields" />
+
+    <Button
+        android:id="@+id/btnAddComment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/add_comment"
+        android:background="@drawable/bg_button"/>
+</LinearLayout>
